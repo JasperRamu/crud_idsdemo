@@ -1,5 +1,5 @@
 package com.springbootcrudexample.config;
-//Test
+//Test for push
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
