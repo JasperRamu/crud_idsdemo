@@ -60,7 +60,7 @@ public class StudentController {
 		modelAndView.addObject("student", new Student());
 		return modelAndView;
 	}
-	
+	// Fetch a resource from DB 
 	@GetMapping(value = "/createstudent")
 	public ModelAndView createStudentView() {
 		ModelAndView modelAndView = new ModelAndView("index");
